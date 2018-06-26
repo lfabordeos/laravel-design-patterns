@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 
 Route::get('/strategy', 'StrategyPattern\PaymentsController@index');
+
+Route::get('/decorator', 'DecoratorPattern\EmployeeJourneyController@index');
