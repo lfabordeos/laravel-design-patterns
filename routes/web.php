@@ -19,3 +19,5 @@ Route::get('/', function () {
 Route::get('/strategy', 'StrategyPattern\PaymentsController@index');
 
 Route::get('/decorator', 'DecoratorPattern\EmployeeJourneyController@index');
+
+Route::get('/proxy', 'ProxyPattern\ProxyPatternController@index');
